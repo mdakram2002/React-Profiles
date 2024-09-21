@@ -1,10 +1,12 @@
 import './Items.css'
 
-function Items() {
+function Items(props) {
+    const itemsName = props.name;
     return (
-        <p className="nirma">Nirma!</p>
-
-
+        <div>
+            <p className="nirma">{itemsName}</p>
+            {props.children}
+        </div>
     )
 }
 export default Items;

@@ -1,5 +1,10 @@
+/** @format */
+
 .App {
   text-align: center;
+  font-size: 50px;
+  text-decoration: none;
+  font-weight: 800;
 }
 
 .App-logo {
