@@ -1,0 +1,9 @@
+/** @format */
+
+.mfgDate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a04d93;
+  font-size: 20px;
+}
