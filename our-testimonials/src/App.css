@@ -1,0 +1,33 @@
+/** @format */
+.body {
+  background-color: #e5e7eb;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e5e7eb;
+}
+.second-con {
+  align-items: center;
+  /* height: 90vh; */
+}
+.container1 h1 {
+  font-size: 2.25rem;
+  font-weight: boid;
+  /* margin-top: px; */
+  margin-bottom: -0rem;
+}
+.container1 .empt {
+  background-color: #a78bfa;
+  height: 4px;
+  width: 20%;
+  margin-top: 0.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
