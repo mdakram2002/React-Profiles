@@ -114,3 +114,51 @@ form button {
 form button:hover {
   background-color: #0056b3;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .App h2 {
+    font-size: 30px;
+  }
+
+  form {
+    width: 100%;
+    padding: 15px;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form select {
+    padding: 8px;
+  }
+
+  form button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .App h2 {
+    font-size: 25px;
+  }
+
+  form {
+    width: 100%;
+    padding: 10px;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form select {
+    padding: 6px;
+  }
+
+  form label {
+    font-size: 14px;
+  }
+
+  form button {
+    width: 100%;
+    padding: 8px;
+  }
+}
