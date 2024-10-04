@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 // import Product from './components/Product';
+// import ProductDate from './ProductDate';
 
 const App = () => {
   const Product = [
@@ -30,8 +31,15 @@ const App = () => {
     },
   ]
 
+  // function printProductData(data) {
+  //   console.log(data);
+  // }
+
+
+
   return (
     <div>
+      {/* <ProductForm prany={printProductData} /> */}
       <Product Items={Product} />
     </div>
   );
