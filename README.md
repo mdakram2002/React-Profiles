@@ -2,20 +2,20 @@
 Welcome to my GitHub repository! This is a collection of my projects and code as I learn and master React.js, covering concepts from basic to advanced levels.
 
 # What You'll Find Here:
-# Basic Level Projects:
+# Basic Level:
 Foundational projects to get a solid grasp of React.js concepts.
 - Understanding JSX
 - Components and Props
 - State and Lifecycle
 
-# Intermediate Level Projects:
+# Intermediate:
 Projects to deepen your understanding and enhance your skills.
 - Routing with React Router
 - State Management with Redux
 - Handling Forms and Inputs
 - Using Context API
 
-# Advanced Level Projects:
+# Advanced Level:
 Complex applications to master React.js.
 - Performance Optimization
 - Server-Side Rendering with Next.js
