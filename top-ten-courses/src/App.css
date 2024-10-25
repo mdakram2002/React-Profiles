@@ -1,0 +1,47 @@
+/** @format */
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #929090;
+}
+
+.second-div {
+  background-color: #929090;
+}
+
+.spinner-cards {
+  width: 91.666667%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+/* Default styles for larger screens */
+body {
+  font-size: 16px;
+  background-color: white;
+}
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    background-color: lightgray;
+  }
+
+  .sidebar {
+    width: 100%; /* Full width on smaller screens */
+    max-width: none; /* Remove max-width restriction */
+  }
+
+  .course-card {
+    flex-direction: column; /* Stack course cards vertically */
+    margin: 5px;
+  }
+}
