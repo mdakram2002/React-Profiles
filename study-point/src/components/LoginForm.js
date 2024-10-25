@@ -84,6 +84,7 @@ const LoginForm = ({ setIsLoggedIn }) => {
     )
 }
 export default LoginForm;
+<<<<<<< HEAD
 
 
 // second code
@@ -175,3 +176,5 @@ export default LoginForm;
 
 // export default LoginForm;
 
+=======
+>>>>>>> 9f430543ad8ecaef55bac5f2612fd8d80e924832

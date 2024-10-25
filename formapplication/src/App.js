@@ -5,11 +5,18 @@ function App() {
 
   const [formData, setformData] = useState({
     firstName: "", middleName: "", lastName: "", email: "",
+<<<<<<< HEAD
     comments: false, condidates: false, offers: false, country: "India",
     address: "", city: "", state: "", pincode: "", pushNotifications: "",
   });
 
 
+=======
+    comments: false, condidates: false, offers: false, country: "",
+    address: "", city: "", state: "", pincode: "",
+  });
+
+>>>>>>> 9f430543ad8ecaef55bac5f2612fd8d80e924832
   function ChangeHandler(event) {
     const { name, value, checked, type } = event.target;
     setformData(prevFormData => {
@@ -31,6 +38,10 @@ function App() {
       <div>
         <h2>Application Form</h2>
         <form onSubmit={submitHandler}>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9f430543ad8ecaef55bac5f2612fd8d80e924832
           <label htmlFor="firstName">First Name</label>
           <input type="text"
             placeholder='Enter first name'
@@ -57,7 +68,11 @@ function App() {
 
           <label htmlFor="email">Email I'd</label>
           <input type="text"
+<<<<<<< HEAD
             placeholder='abcd@example.com'
+=======
+            placeholder='Enter your email'
+>>>>>>> 9f430543ad8ecaef55bac5f2612fd8d80e924832
             onChange={ChangeHandler}
             name='email'
             value={formData.email}
@@ -70,6 +85,10 @@ function App() {
             value={formData.country}
             onChange={ChangeHandler}
           >
+<<<<<<< HEAD
+=======
+            <option value="select" placeholder="Select">Select</option>
+>>>>>>> 9f430543ad8ecaef55bac5f2612fd8d80e924832
             <option value="inda">India</option>
             <option value="usa">USA</option>
             <option value="saudiarbia">Saudi Arbia</option>
@@ -88,7 +107,11 @@ function App() {
 
           <label htmlFor="city">City</label>
           <input type="text"
+<<<<<<< HEAD
             placeholder='Supaul'
+=======
+            placeholder='City'
+>>>>>>> 9f430543ad8ecaef55bac5f2612fd8d80e924832
             onChange={ChangeHandler}
             name='city'
             value={formData.city}
@@ -96,7 +119,11 @@ function App() {
 
           <label htmlFor="state"> State / Province</label>
           <input type="text"
+<<<<<<< HEAD
             placeholder='Bihar'
+=======
+            placeholder='State/Province'
+>>>>>>> 9f430543ad8ecaef55bac5f2612fd8d80e924832
             onChange={ChangeHandler}
             name='state'
             value={formData.state}
@@ -159,6 +186,7 @@ function App() {
 
 
           <div className='push-notifications'>
+<<<<<<< HEAD
             <h3>Push Notification</h3>
             <p>These are deliveds via SMS for your mobail</p>
             <div className='push'>
@@ -170,10 +198,23 @@ function App() {
                 id="pushEverything"
               />
               <label htmlFor="pushEverything">Everything</label>
+=======
+            <div className='push'>
+              <h3>Push Notification</h3>
+              <p>These are deliveds via SMS for your mobail</p>
+              <label htmlFor="comments">Everything</label>
+              <input type="radio"
+                onChange={ChangeHandler}
+                name="comments"
+                value={formData.comments}
+                id="comments"
+              />
+>>>>>>> 9f430543ad8ecaef55bac5f2612fd8d80e924832
             </div>
 
 
             <div className='push'>
+<<<<<<< HEAD
 
               <input type="radio"
                 onChange={ChangeHandler}
@@ -193,6 +234,25 @@ function App() {
                 id="noPush"
               />
               <label htmlFor="noPush">No Push Notification</label>
+=======
+              <label htmlFor="comments">Same as email</label>
+              <input type="radio"
+                onChange={ChangeHandler}
+                name="comments"
+                value={formData.comments}
+                id="comments"
+              />
+            </div>
+
+            <div className='push'>
+              <label htmlFor="comments">No push Notification</label>
+              <input type="radio"
+                onChange={ChangeHandler}
+                name="comments"
+                value={formData.comments}
+                id="comments"
+              />
+>>>>>>> 9f430543ad8ecaef55bac5f2612fd8d80e924832
             </div>
           </div>
 

@@ -44,7 +44,11 @@ const Navbar = (props) => {
                     <Link to="/login">
                         <button
                             className='bg-gray-860 rounded-[8px] bg-gray-850 border border-gray-600 p-2'
+<<<<<<< HEAD
                         >
+=======
+                           >
+>>>>>>> 9f430543ad8ecaef55bac5f2612fd8d80e924832
                             LogIn
                         </button>
                     </Link>

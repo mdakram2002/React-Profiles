@@ -9,7 +9,11 @@ function Card({ id, image, info, price, name, removeTours }) {
     // console.log(str?.substring(1) || ' ');
 
     const [readmore, setReadmore] = useState(false);
+<<<<<<< HEAD
     const description = readmore ? info : `${info.substring(0, 180)}...`;
+=======
+    const description = readmore ? info :`${info.substring(0, 180)}...`;
+>>>>>>> 9f430543ad8ecaef55bac5f2612fd8d80e924832
 
     function readmoreHandler() {
         setReadmore(!readmore);
