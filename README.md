@@ -33,7 +33,7 @@ Solidify Fundamentals: Build a strong foundation in React.js.
 # Feedback & Contribution
 Your feedback and suggestions are highly appreciated. Feel free to explore, provide insights, or contribute to any of the projects. Let's learn and grow together!
 
-Contact
+# Contact me:
 - Email: mdakram12022002@gmail.com 
 - LinkedIn: https://www.linkedin.com/in/mdakram2002
 - Portfolio: https://myportfolioakram.netlify.app
