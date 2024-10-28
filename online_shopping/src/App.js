@@ -6,13 +6,13 @@ import Cart from './page/Cart';
 
 function App() {
   return (
-    <div className="flex flex-col items-center">
-      <div>
+    <div className='bg-slate-50'>
+      <div className="bg-slate-900">
         <Navbar />
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<Cart />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </div>
   );
